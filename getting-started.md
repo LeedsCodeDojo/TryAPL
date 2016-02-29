@@ -37,3 +37,11 @@ Instead of writing out lists of numbers, you can generate sequences with ⍳:
     1 2 3 4 5 6 7 8 9 10
     
 #### Ex 1.5 Calculate !5 (5 factorial - 1x2x3x4x5) using the ⍳ operator.
+
+Of course, you could just do !5..
+
+Assigning variables is easy with ←:
+
+        x←1 2 3
+        x
+    1 2 3
