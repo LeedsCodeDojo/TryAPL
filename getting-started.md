@@ -102,4 +102,18 @@ You can even use your new function with the Reduce operator:
 
 ###### Ex 4.2 Create a function that multiplies two values.
 
+#### 5. Evaluation order
 
+Unlike most languages, APL evaluates everything strictly right-to-left, there's no operator precedence:
+
+        10×3+2
+    50
+    
+Reduction also happens right-to-left, hence the perhaps unexpected result in Part 4.
+
+As with most languages, you can use parenthesis to define an explicit order:
+
+        (10×3)+2
+    32
+    
+###### Ex 5.1 Calculate (5×5+5)÷2-3, which should equal 12, in the fewest characters you can.
