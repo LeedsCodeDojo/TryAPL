@@ -117,3 +117,5 @@ As with most languages, you can use parenthesis to define an explicit order:
     32
     
 ###### Ex 5.1 Calculate (5×5+5)÷2-3, which should equal 12, in the fewest characters you can.
+
+Note: If you want a negative number, you need to use a 'high minus', e.g. ¯1.
