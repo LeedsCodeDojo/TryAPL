@@ -102,7 +102,7 @@ You can even use your new function with the Reduce operator:
 
 ###### Ex 4.2 Create a function that multiplies two values.
 
-#### 5. Evaluation order
+#### 5. Evaluation Order
 
 Unlike most languages, APL evaluates everything strictly right-to-left, there's no operator precedence:
 
@@ -111,7 +111,7 @@ Unlike most languages, APL evaluates everything strictly right-to-left, there's 
     
 Reduction also happens right-to-left, hence the perhaps unexpected result in Part 4.
 
-As with most languages, you can use parenthesis to define an explicit order:
+As with most languages, you can use parentheses to define an explicit order:
 
         (10×3)+2
     32
