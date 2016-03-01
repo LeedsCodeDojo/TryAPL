@@ -58,7 +58,7 @@ Assigning variables is easy with ←:
         x
     1
 
-#### Ex 3.1 Assign an array containing the first ten numbers to the variable x
+###### Ex 3.1 Assign an array containing the first ten numbers to the variable x
 
 #### 4. Functions
 
@@ -81,3 +81,25 @@ You can create functions that take two arguments (dyadic functions) using the �
         minus←{⍺-⍵}
         5 minus 3
     2
+
+As in other cases, the arguments can be arrays:
+
+        5 6 7 minus 1 2 3
+    4 4 4
+    
+        5 6 7 minus 1
+    4 5 6
+    
+        5 minus 1 2 3
+    4 3 2
+  
+You can even use your new function with the Reduce operator:
+
+        minus/100 50 10
+    60
+    
+(Was 60 the value you expected?  Can you explain it?  See the next section for details.)
+
+###### Ex 4.2 Create a function that multiplies two values.
+
+
