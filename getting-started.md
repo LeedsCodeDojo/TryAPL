@@ -146,4 +146,12 @@ Hint: The modulo operator is called 'residue' and uses the pipe operator - altho
 
 #### 7. Filtering
 
-APL has a feature called 
+APL has a feature called compression which lets you select elements from an array based on a same-sized array of booleans:
+
+        1 0 1 0 1/1 2 3 4 5
+    1 3 5
+
+You can use this in combination with comparison shown in part 6 to fliter an array based on a function.
+
+Ex 7.1 Show the even numbers in the sequence of numbers up to 10.
+    
