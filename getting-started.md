@@ -16,7 +16,7 @@ One difference between APL and other languages is that you use the standard math
 
 #### 2. Arrays
 
-APL operators also work with arrays as standard.  To make an array, simply put spaces between the elements:
+APL operators also work with arrays as standard (formally called Vectors).  To make an array, simply put spaces between the elements:
 
     1 2 3 4
 
@@ -119,3 +119,26 @@ As with most languages, you can use parentheses to define an explicit order:
 ###### Ex 5.1 Calculate (5×5+5)÷2-3, which should equal 12, in the fewest characters you can.
 
 Note: If you want a negative number, you need to use a 'high minus', e.g. ¯1.
+
+#### 6. Logic and Comparison
+
+True and false are represented by 1 and 0 respectively.  Comparison can be done using '=', as with most languages:
+
+        5=5
+    1
+    
+        5=6
+    0
+    
+Of course, you can also do this with arrays:
+
+        (⍳10)=5
+    0 0 0 0 1 0 0 0 0 0
+    
+(Notice that because of the right-left evaluation, you have to use parentheses otherwise the expression would be evaluated ⍳(10=5)).
+
+###### Ex 6.1 For the sequence of numbers up to 10, show whether each of them is even.
+
+#### 6. Filtering
+
+
