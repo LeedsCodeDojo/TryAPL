@@ -139,6 +139,11 @@ Of course, you can also do this with arrays:
 
 ###### Ex 6.1 For the sequence of numbers up to 10, show whether each of them is even.
 
-#### 6. Filtering
+Hint: The modulo operator is called 'residue' and uses the pipe operator - although it might work the opposite way round to what you expect.  Because, you know, APL..  e.g. 9 mod 3:
 
+        3|9
+    0
 
+#### 7. Filtering
+
+APL has a feature called 
